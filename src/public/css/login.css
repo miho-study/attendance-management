@@ -1,0 +1,61 @@
+.title {
+    text-align: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+label {
+    display: block;
+    position: relative;
+    left: 32%;
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group:nth-of-type(2) {
+    margin-bottom: 70px;
+}
+
+input {
+    width: 525px;
+    height: 35px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 8px;
+}
+
+button {
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    width: 525px;
+    height: 40px;
+    border-radius: 3px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+}

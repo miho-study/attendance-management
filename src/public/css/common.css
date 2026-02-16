@@ -1,0 +1,85 @@
+.header {
+    background: #000;
+}
+
+.header__logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin-left: -100px;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 15px 15px;
+    max-width: 1230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.header-utilities {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.header-nav {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin-right: -100px;
+}
+
+.header__nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.header__nav a.sell-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.header__nav a.sell-btn:hover {
+    background-color: #ddd;
+}
+
+.header-nav__item {
+    display: flex;
+    align-items: center;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.search-input {
+    padding: 6px 10px;
+    width: 400px;
+    height: 35px;
+}
+
+.search-btn {
+    padding: 6px 12px;
+}
+
+.submit {
+    background-color: black;
+    color: white;
+}
